@@ -1,0 +1,510 @@
+body {
+    background: #a2c2e0;
+    height: min-content;
+    overflow-x: hidden;
+}
+
+.top {
+    background: white;
+    border-radius: 5px;
+    max-width: 100vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+#drop-box {
+    text-align: center;
+    border: none;
+    width: 15vw;
+}
+
+#value {
+    font-size: larger;
+}
+
+.para {
+    margin-top: 1px;
+}
+
+#drop-box {
+    margin-top: 2px;
+    height: 25px;
+}
+
+.img {
+    margin-top: 2px;
+    height: 16px;
+}
+
+.b1 {
+    color: white;
+    padding: 1vh;
+    border: none;
+    background: rgb(248, 56, 56);
+    border-radius: 7px;
+}
+
+.b1:hover {
+    color: red;
+    border: 2px solid red;
+    background: none;
+}
+
+.list1,
+.list2 {
+    margin-left: -40px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.li1:hover {
+    color: red;
+    transform: scale(1.1);
+    text-decoration: underline;
+}
+
+.two>p,
+.b1 {
+    font-weight: bold;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    transition: .2s;
+    color: white;
+}
+
+.two {
+    width: 200vw;
+    text-transform: capitalize;
+}
+
+.comb {
+    background: rgb(220, 219, 219);
+    width: 96.5vw;
+    overflow: auto;
+    padding: 1vw;
+    border-radius: 5px;
+}
+
+.img2 {
+    width: 100vw;
+    height: 70vh;
+}
+
+@media screen and (max-width: 500px) {
+    .img2 {
+        height: 35vh;
+    }
+}
+
+.textOverlay {
+    position: absolute;
+    top: 18vh;
+    left: 5vw;
+    font-size: small;
+    font-family: cursive;
+    font-weight: bolder;
+}
+
+@media screen and (min-width: 500px) {
+    .textOverlay {
+        font-size: larger;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .textOverlay {
+        font-size: x-large;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .textOverlay {
+        font-size: xx-large;
+    }
+}
+
+.overlay1 {
+    color: red;
+}
+
+.overlay1:hover {
+    text-shadow: 2px 2px black;
+}
+
+.overlay2:hover {
+    text-shadow: 2px 2px salmon;
+}
+
+.subHead {
+    text-align: center;
+}
+
+.s1,
+.s2 {
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.sh1:hover {
+    text-shadow: 2px 2px 2px rgb(255, 89, 71);
+}
+
+.sh2 {
+    color: red;
+}
+
+.sh2:hover {
+    text-shadow: 3px 3px #05f7e6;
+}
+
+@media screen and (min-width: 0px) {
+
+    .s1,
+    .s2 {
+        font-size: larger;
+        font-weight: 700;
+    }
+}
+
+@media screen and (min-width: 700px) {
+
+    .s1,
+    .s2 {
+        font-size: x-large;
+        font-weight: 900;
+    }
+}
+
+@media screen and (min-width: 900px) {
+
+    .s1,
+    .s2 {
+        font-size: xx-large;
+        font-weight: bolder;
+    }
+}
+
+.shtext>p:first-child {
+    margin-left: 5vw;
+    margin-right: 20vw;
+    text-align: justify;
+}
+
+.shtext>p:nth-child(2) {
+    margin-left: 20vw;
+    margin-right: 5vw;
+    text-align: justify;
+}
+
+.but1,
+.but2 {
+    font-weight: 700;
+    border: none;
+    padding: 10px;
+    background: red;
+    border-radius: 5px;
+    margin-top: 2.5vh;
+}
+
+.but1:hover,
+.but2:hover {
+    outline: 2px solid red;
+    background: none;
+    color: red;
+    font-weight: 700;
+}
+
+.sh3 {
+    margin-top: 10vh;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.subpro {
+    height: fit-content;
+    width: fit-content;
+    background: #fff;
+    margin-left: 10px;
+    padding: 5vw;
+    border-radius: 5vw;
+    margin-right: 5vw;
+}
+.subpro:hover{
+    box-shadow: 1vw 1vw 1vh 1vw #5f5f5f;
+    transform: scale(.99);
+}
+.but1:hover{
+    background: #fff;
+}
+
+.img3,
+.img4,
+.img5 {
+    transition: 2s;
+    height: 35vh;
+    width: 55vw;
+}
+
+.img3:hover,.img4:hover,.img5:hover{
+    transform: scale(1.075);
+}
+.products {
+    display: flex;
+    width: 100vw;
+    padding: 4vw;
+}
+
+.containerPro {
+    display: flex;
+    width: 100vw;
+    overflow-x: auto;
+    justify-content: space-between;
+}
+
+.foodStuff,
+.automotive,
+.medicare {
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 4px;
+}
+
+.subfoodStuff,
+.subautomotive,
+.subMedicare {
+    font-size: smaller;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 4px;
+    text-align: justify;
+    overflow: auto;
+}
+
+.containerBut2 {
+    margin-left: 5vw;
+    margin-bottom: 1vh;
+}
+
+.sh4 {
+    text-align: center;
+    margin-top: 10vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.img6,
+.img7,
+.img8,
+.img9 {
+    margin-left: 3vw;
+    height: 12vh;
+    width: 18vw;
+}
+
+.mainSir {
+    display: flex;
+    width: 200vw;
+    overflow-x: auto;
+    justify-content: space-between;
+}
+
+.containerServ {
+    overflow: auto;
+    width: 100vw;
+}
+
+.subImg {
+    justify-content: center;
+    overflow: auto;
+    height: 24vh;
+    width: 40vw;
+    margin: 5px;
+    border-radius: 3.5vw;
+    background: #fff;
+}
+
+.procument,
+.ecommerce,
+.import,
+.logistic {
+    margin-left: 4px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
+}
+
+.subProcument,
+.subEcom,
+.subImport,
+.subLogistic {
+    margin-left: 1vw;
+    margin-right: 1vw;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: justify;
+    font-size: x-small;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.sh5 {
+    margin-top: 10vh;
+    text-align: center;
+}
+
+.partnerImg {
+    display: flex;
+    width: 100vw;
+    padding: 4vw;
+    overflow-x: auto;
+}
+
+.subSponser {
+    display: flex;
+    width: fit-content;
+}
+
+.subPartener,
+.sh8 {
+    text-align: center;
+    font-size: larger;
+}
+
+@media screen and (min-width: 800px) {
+    p {
+        font-size: x-large;
+    }
+}
+
+.subPart {
+    height: 10vh;
+    width: 35vw;
+    margin: 4vw;
+}
+
+.sh6 {
+    font-size: 5vw;
+}
+
+.sh7 {
+    font-size: 4.5vw;
+}
+
+.sh6,
+.sh7 {
+    font-weight: bold;
+    text-align: center;
+}
+
+.subLast {
+    height: 40vh;
+    width: 65vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 700px) {
+    .subLast {
+        height: 25vh;
+        width: 80vw;
+        /* Adjust width for smaller screens */
+    }
+}
+
+.lastImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.subLImg {
+    margin-left: 10vw;
+    color: black;
+    font-weight: 900;
+    font-family: sans-serif;
+}
+
+.bottom {
+    background: rgb(151, 150, 150);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin: 5vh auto;
+    margin-bottom: 1vw;
+}
+
+.subLast2 {
+    text-align: center;
+}
+
+.img10,
+.img11 {
+    height: 7vh;
+    background: rgb(151, 150, 150);
+}
+
+.img10 {
+    margin-right: auto;
+    /* Push img10 to the left */
+}
+
+.img11 {
+    margin-left: auto;
+    /* Push img11 to the right */
+}
+
+.lImg {
+    height: 5vw;
+}
+
+.img12 {
+    text-align: center;
+    width: 35vw;
+    height: 12vw;
+}
+
+@media screen and (max-width: 450px) {
+    .sub2Last {
+        font-size: x-small;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .sub2Last {
+        font-size: x-small;
+    }
+
+    .containe12 {
+        margin-left: 1vw;
+        display: block;
+        height: 13vh;
+    }
+
+    .img12 {
+        height: 3vh;
+        width: 20vw;
+    }
+}
+
+@media screen and (min-width: 550px) {
+    .containe12 {
+        margin-left: 2vw;
+        display: block;
+        height: 10vh;
+    }
+
+    .img12 {
+        height: 3vh;
+        width: 25vw;
+    }
+}
+
+.locateContent {
+    display: grid;
+    place-items: center;
+}
