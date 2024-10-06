@@ -1,5 +1,5 @@
 body {
-    background: #a2c2e0;
+    background: #fdfefe;
     height: min-content;
     overflow-x: hidden;
 }
@@ -13,7 +13,6 @@ body {
 }
 
 #drop-box {
-    text-align: center;
     border: none;
     width: 15vw;
 }
@@ -23,17 +22,32 @@ body {
 }
 
 .para {
-    margin-top: 1px;
+    margin-left: 1vw;
+    margin-top: 9px;
+    font: 1em sans-serif;
 }
 
 #drop-box {
-    margin-top: 2px;
+    margin-top: 6px;
     height: 25px;
+    font: 1em sans-serif;
+    width: fit-content;
+    border: 1px solid;
 }
 
 .img {
     margin-top: 2px;
     height: 16px;
+}
+
+.contact{
+    margin-top: 5px;
+    margin-right: 1vw;
+}
+
+.noStyleL{
+    text-decoration: none;
+    color: black;
 }
 
 .b1 {
@@ -105,7 +119,7 @@ button{
     top: 18vh;
     left: 5vw;
     font-size: small;
-    font-family: cursive;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
     font-weight: bolder;
 }
 
@@ -131,14 +145,6 @@ button{
     color: red;
 }
 
-.overlay1:hover {
-    text-shadow: 2px 2px black;
-}
-
-.overlay2:hover {
-    text-shadow: 2px 2px salmon;
-}
-
 .subHead {
     text-align: center;
 }
@@ -149,16 +155,9 @@ button{
     font-weight: 600;
 }
 
-.sh1:hover {
-    text-shadow: 2px 2px 2px rgb(255, 89, 71);
-}
 
 .sh2 {
     color: red;
-}
-
-.sh2:hover {
-    text-shadow: 3px 3px #05f7e6;
 }
 
 @media screen and (min-width: 0px) {
@@ -226,7 +225,7 @@ button{
 
 .subpro {
     height: fit-content;
-    width: fit-content;
+    width: 35vw;
     background: #fff;
     margin-left: 10px;
     padding: 5vw;
@@ -234,7 +233,7 @@ button{
     margin-right: 5vw;
 }
 .subpro:hover{
-    box-shadow: 1vw 1vw 1vh 1vw #5f5f5f;
+    box-shadow: 1vw 1vw 1vh #5f5f5f;
     transform: scale(.99);
 }
 .but1:hover{
@@ -246,7 +245,7 @@ button{
 .img5 {
     transition: 2s;
     height: 35vh;
-    width: 55vw;
+    width: 35vw;
 }
 
 .img3:hover,.img4:hover,.img5:hover{
